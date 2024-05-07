@@ -1,0 +1,895 @@
+GPU Memory Track | 07-May-24-21:27:47 | Total Tensor Used Memory:16302.9Mb Total Allocated Memory:16414.5Mb
+
++ | 80 * Size:(1280, 1280, 3, 3)   | Memory: 4500.0 M | <class 'torch.Tensor'> | torch.float32
++ | 20 * Size:(1280, 2560, 3, 3)   | Memory: 2250.0 M | <class 'torch.Tensor'> | torch.float32
++ | 248 * Size:(1280, 1280)         | Memory: 1550.0 M | <class 'torch.Tensor'> | torch.float32
++ | 24 * Size:(10240, 1280)        | Memory: 1200.0 M | <class 'torch.Tensor'> | torch.float32
++ | 24 * Size:(1280, 5120)         | Memory: 600.0 M | <class 'torch.Tensor'> | torch.float32
++ | 190 * Size:(1280, 1280)         | Memory: 593.75 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 20 * Size:(1280, 1280, 3, 3)   | Memory: 562.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 38 * Size:(1280, 5120)         | Memory: 475.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 32 * Size:(640, 640, 3, 3)     | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float32
++ | 32 * Size:(5120, 1280)         | Memory: 400.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 4 * Size:(1280, 1920, 3, 3)   | Memory: 337.5 M | <class 'torch.Tensor'> | torch.float32
++ | 5 * Size:(1280, 2560, 3, 3)   | Memory: 281.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 20 * Size:(5120, 640)          | Memory: 250.0 M | <class 'torch.Tensor'> | torch.float32
++ | 160 * Size:(640, 640)           | Memory: 250.0 M | <class 'torch.Tensor'> | torch.float32
++ | 20 * Size:(1280, 2560, 1, 1)   | Memory: 250.0 M | <class 'torch.Tensor'> | torch.float32
++ | 48 * Size:(1280, 1024)         | Memory: 240.0 M | <class 'torch.Tensor'> | torch.float32
++ | 4 * Size:(640, 1920, 3, 3)    | Memory: 168.75 M | <class 'torch.Tensor'> | torch.float32
++ | 6 * Size:(10240, 1280)        | Memory: 150.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 30 * Size:(512, 512, 3, 3)     | Memory: 135.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 20 * Size:(640, 2560)          | Memory: 125.0 M | <class 'torch.Tensor'> | torch.float32
++ | 4 * Size:(1280, 640, 3, 3)    | Memory: 112.5 M | <class 'torch.Tensor'> | torch.float32
++ | 32 * Size:(320, 320, 3, 3)     | Memory: 112.5 M | <class 'torch.Tensor'> | torch.float32
++ | 4 * Size:(640, 1280, 3, 3)    | Memory: 112.5 M | <class 'torch.Tensor'> | torch.float32
++ | 40 * Size:(640, 1024)          | Memory: 100.0 M | <class 'torch.Tensor'> | torch.float32
++ | 4 * Size:(640, 960, 3, 3)     | Memory: 84.375 M | <class 'torch.Tensor'> | torch.float32
++ | 20 * Size:(640, 1280)          | Memory: 62.5 M | <class 'torch.Tensor'> | torch.float32
++ | 40 * Size:(320, 1280)          | Memory: 62.5 M | <class 'torch.Tensor'> | torch.float32
++ | 20 * Size:(2560, 320)          | Memory: 62.5 M | <class 'torch.Tensor'> | torch.float32
++ | 160 * Size:(320, 320)           | Memory: 62.5 M | <class 'torch.Tensor'> | torch.float32
++ | 8 * Size:(320, 640, 3, 3)     | Memory: 56.25 M | <class 'torch.Tensor'> | torch.float32
++ | 8 * Size:(640, 640, 3, 3)     | Memory: 56.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 40 * Size:(320, 1024)          | Memory: 50.0 M | <class 'torch.Tensor'> | torch.float32
++ | 4 * Size:(320, 960, 3, 3)     | Memory: 42.187 M | <class 'torch.Tensor'> | torch.float32
++ | 1 * Size:(1280, 1920, 3, 3)   | Memory: 42.187 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 4 * Size:(1280, 2048)         | Memory: 40.0 M | <class 'torch.Tensor'> | torch.float32
++ | 4 * Size:(1280, 1920, 1, 1)   | Memory: 37.5 M | <class 'torch.Tensor'> | torch.float32
++ | 5 * Size:(1280, 2560, 1, 1)   | Memory: 31.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 5 * Size:(5120, 640)          | Memory: 31.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 40 * Size:(640, 640)           | Memory: 31.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 12 * Size:(1280, 1024)         | Memory: 30.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 4 * Size:(640, 320, 3, 3)     | Memory: 28.125 M | <class 'torch.Tensor'> | torch.float32
++ | 1 * Size:(640, 1920, 3, 3)    | Memory: 21.093 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 4 * Size:(640, 1920, 1, 1)    | Memory: 18.75 M | <class 'torch.Tensor'> | torch.float32
++ | 5 * Size:(640, 2560)          | Memory: 15.625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 8 * Size:(320, 320, 3, 3)     | Memory: 14.062 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(1280, 640, 3, 3)    | Memory: 14.062 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(640, 1280, 3, 3)    | Memory: 14.062 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 4 * Size:(640, 1280, 1, 1)    | Memory: 12.5 M | <class 'torch.Tensor'> | torch.float32
++ | 10 * Size:(640, 1024)          | Memory: 12.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 4 * Size:(1280, 640, 1, 1)    | Memory: 12.5 M | <class 'torch.Tensor'> | torch.float32
++ | 10 * Size:(256, 256, 3, 3)     | Memory: 11.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(640, 960, 3, 3)     | Memory: 10.546 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 4 * Size:(640, 960, 1, 1)     | Memory: 9.375 M | <class 'torch.Tensor'> | torch.float32
++ | 10 * Size:(320, 1280)          | Memory: 7.8125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 5 * Size:(640, 1280)          | Memory: 7.8125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 5 * Size:(2560, 320)          | Memory: 7.8125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 40 * Size:(320, 320)           | Memory: 7.8125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(320, 640, 3, 3)     | Memory: 7.0312 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 10 * Size:(320, 1024)          | Memory: 6.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 4 * Size:(1280, 320)          | Memory: 6.25 M | <class 'torch.Tensor'> | torch.float32
++ | 8 * Size:(320, 640, 1, 1)     | Memory: 6.25 M | <class 'torch.Tensor'> | torch.float32
++ | 1 * Size:(320, 960, 3, 3)     | Memory: 5.2734 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(1280, 2048)         | Memory: 5.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(1280, 1920, 1, 1)   | Memory: 4.6875 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 4 * Size:(320, 960, 1, 1)     | Memory: 4.6875 M | <class 'torch.Tensor'> | torch.float32
++ | 8 * Size:(512, 512)           | Memory: 4.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(640, 320, 3, 3)     | Memory: 3.5156 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 656 * Size:(1280,)              | Memory: 3.2031 M | <class 'torch.Tensor'> | torch.float32
++ | 4 * Size:(640, 320, 1, 1)     | Memory: 3.125 M | <class 'torch.Tensor'> | torch.float32
++ | 10 * Size:(128, 128, 3, 3)     | Memory: 2.8125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(1024, 1280)         | Memory: 2.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(640, 1920, 1, 1)    | Memory: 2.3437 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(256, 512, 3, 3)     | Memory: 2.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(512, 256, 3, 3)     | Memory: 2.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(1280, 640, 1, 1)    | Memory: 1.5625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(640, 1280, 1, 1)    | Memory: 1.5625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(1280, 3, 14, 14)    | Memory: 1.4355 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(640, 960, 1, 1)     | Memory: 1.1718 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 457 * Size:(1280,)              | Memory: 1.1157 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 416 * Size:(640,)               | Memory: 1.0156 M | <class 'torch.Tensor'> | torch.float32
++ | 24 * Size:(10240,)             | Memory: 0.9375 M | <class 'torch.Tensor'> | torch.float32
++ | 2 * Size:(320, 640, 1, 1)     | Memory: 0.7812 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(1280, 320)          | Memory: 0.7812 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(257, 1280)          | Memory: 0.6274 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(320, 960, 1, 1)     | Memory: 0.5859 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 60 * Size:(2560,)              | Memory: 0.5859 M | <class 'torch.Tensor'> | torch.float32
++ | 1 * Size:(128, 256, 3, 3)     | Memory: 0.5625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(256, 128, 3, 3)     | Memory: 0.5625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 412 * Size:(320,)               | Memory: 0.5029 M | <class 'torch.Tensor'> | torch.float32
++ | 1 * Size:(640, 320, 1, 1)     | Memory: 0.3906 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 20 * Size:(5120,)              | Memory: 0.3906 M | <class 'torch.Tensor'> | torch.float32
++ | 37 * Size:(5120,)              | Memory: 0.3613 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 4 * Size:(320, 8, 3, 3)       | Memory: 0.3515 M | <class 'torch.Tensor'> | torch.float32
++ | 1 * Size:(512, 256, 1, 1)     | Memory: 0.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(256, 512, 1, 1)     | Memory: 0.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 4 * Size:(4, 320, 3, 3)       | Memory: 0.1757 M | <class 'torch.Tensor'> | torch.float32
++ | 104 * Size:(640,)               | Memory: 0.1269 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 16 * Size:(1920,)              | Memory: 0.1171 M | <class 'torch.Tensor'> | torch.float32
++ | 6 * Size:(10240,)             | Memory: 0.1171 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 103 * Size:(512,)               | Memory: 0.1005 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 15 * Size:(2560,)              | Memory: 0.0732 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(8, 512, 3, 3)       | Memory: 0.0703 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 103 * Size:(320,)               | Memory: 0.0628 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(128, 256, 1, 1)     | Memory: 0.0625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(256, 128, 1, 1)     | Memory: 0.0625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 16 * Size:(960,)               | Memory: 0.0585 M | <class 'torch.Tensor'> | torch.float32
++ | 1 * Size:(320, 8, 3, 3)       | Memory: 0.0439 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(512, 4, 3, 3)       | Memory: 0.0351 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(4, 320, 3, 3)       | Memory: 0.0219 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 34 * Size:(256,)               | Memory: 0.0166 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 4 * Size:(1920,)              | Memory: 0.0146 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 35 * Size:(128,)               | Memory: 0.0085 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 4 * Size:(960,)               | Memory: 0.0073 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(3, 128, 3, 3)       | Memory: 0.0065 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(128, 3, 3, 3)       | Memory: 0.0065 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(1, 1024)            | Memory: 0.0039 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(1, 257)             | Memory: 0.0019 M | <class 'torch.Tensor'> | torch.int64
++ | 1 * Size:(8, 8, 1, 1)         | Memory: 0.0001 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 4 * Size:(4,)                 | Memory: 6.1035 M | <class 'torch.Tensor'> | torch.float32
++ | 2 * Size:(8,)                 | Memory: 3.0517 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(4, 4, 1, 1)         | Memory: 3.0517 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(3, 1, 1)            | Memory: 2.2888 M | <class 'torch.Tensor'> | torch.float32
++ | 2 * Size:(4,)                 | Memory: 1.5258 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(3,)                 | Memory: 5.7220 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+
+At /home/czh5/multimodal/deepspeed-mvdiffusion/train_mvdiffusion_image_sd21_unclip_ds.py line 680: main Total Tensor Used Memory:16302.9Mb Total Allocated Memory:16414.5Mb
+
++ | 20 * Size:(32, 2304, 1280)     | Memory: 3600.0 M | <class 'torch.Tensor'> | torch.float16
++ | 45 * Size:(32, 2304, 320)      | Memory: 2025.0 M | <class 'torch.Tensor'> | torch.float16
++ | 20 * Size:(32, 576, 2560)      | Memory: 1800.0 M | <class 'torch.Tensor'> | torch.float16
++ | 30 * Size:(160, 2304, 1, 64)   | Memory: 1350.0 M | <class 'torch.Tensor'> | torch.float16
++ | 30 * Size:(32, 320, 48, 48)    | Memory: 1350.0 M | <class 'torch.Tensor'> | torch.float16
++ | 45 * Size:(32, 576, 640)       | Memory: 1012.5 M | <class 'torch.Tensor'> | torch.float16
++ | 20 * Size:(32, 144, 5120)      | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 4608, 64)      | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 4608, 1, 64)   | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
++ | 30 * Size:(320, 576, 1, 64)    | Memory: 675.0 M | <class 'torch.Tensor'> | torch.float16
++ | 7 * Size:(32, 640, 48, 48)    | Memory: 630.0 M | <class 'torch.Tensor'> | torch.float16
++ | 24 * Size:(32, 640, 24, 24)    | Memory: 540.0 M | <class 'torch.Tensor'> | torch.float16
++ | 45 * Size:(32, 144, 1280)      | Memory: 506.25 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 1152, 1, 64)   | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 1152, 64)      | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 2304, 64)      | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 960, 48, 48)    | Memory: 405.0 M | <class 'torch.Tensor'> | torch.float16
++ | 30 * Size:(640, 144, 1, 64)    | Memory: 337.5 M | <class 'torch.Tensor'> | torch.float16
++ | 25 * Size:(32, 1280, 12, 12)   | Memory: 281.25 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(640, 288, 64)       | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 576, 64)       | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(640, 288, 1, 64)    | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 1920, 24, 24)   | Memory: 202.5 M | <class 'torch.Tensor'> | torch.float16
++ | 4 * Size:(32, 1280, 24, 24)   | Memory: 180.0 M | <class 'torch.Tensor'> | torch.float16
++ | 6 * Size:(32, 2560, 12, 12)   | Memory: 135.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(640, 144, 64)       | Memory: 112.5 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(4, 8, 3, 384, 384)  | Memory: 108.0 M | <class 'torch.Tensor'> | torch.float32
++ | 3 * Size:(32, 960, 24, 24)    | Memory: 101.25 M | <class 'torch.Tensor'> | torch.float16
++ | 34 * Size:(32, 1280, 6, 6)     | Memory: 95.625 M | <class 'torch.Tensor'> | torch.float16
++ | 12 * Size:(640, 77, 64)        | Memory: 72.187 M | <class 'torch.Tensor'> | torch.float16
++ | 12 * Size:(640, 77, 1, 64)     | Memory: 72.187 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(32, 3, 384, 384)    | Memory: 54.0 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 1920, 12, 12)   | Memory: 50.625 M | <class 'torch.Tensor'> | torch.float16
++ | 9 * Size:(32, 2560, 6, 6)     | Memory: 50.625 M | <class 'torch.Tensor'> | torch.float16
++ | 4 * Size:(32, 36, 5120)       | Memory: 45.0 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 320, 24, 24)    | Memory: 33.75 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 77, 64)        | Memory: 30.078 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 77, 1, 64)     | Memory: 30.078 M | <class 'torch.Tensor'> | torch.float16
++ | 9 * Size:(32, 36, 1280)       | Memory: 25.312 M | <class 'torch.Tensor'> | torch.float16
++ | 6 * Size:(640, 36, 1, 64)     | Memory: 16.875 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 640, 12, 12)    | Memory: 16.875 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 77, 1, 64)     | Memory: 15.039 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 77, 64)        | Memory: 15.039 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 1, 2304)       | Memory: 14.062 M | <class 'torch.Tensor'> | torch.float32
++ | 2 * Size:(640, 72, 64)        | Memory: 11.25 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(640, 72, 1, 64)     | Memory: 11.25 M | <class 'torch.Tensor'> | torch.float16
++ | 1 * Size:(32, 3, 224, 224)    | Memory: 9.1875 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 1, 576)        | Memory: 7.0312 M | <class 'torch.Tensor'> | torch.float32
++ | 2 * Size:(640, 36, 64)        | Memory: 5.625 M | <class 'torch.Tensor'> | torch.float16
++ | 1 * Size:(4, 8, 77, 1024)     | Memory: 4.8125 M | <class 'torch.Tensor'> | torch.float16
++ | 1 * Size:(32, 77, 1024)       | Memory: 4.8125 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(640, 1, 144)        | Memory: 3.5156 M | <class 'torch.Tensor'> | torch.float32
++ | 5 * Size:(32, 4, 48, 48)      | Memory: 2.8125 M | <class 'torch.Tensor'> | torch.float16
++ | 27 * Size:(32, 1280)           | Memory: 2.1093 M | <class 'torch.Tensor'> | torch.float16
++ | 1 * Size:(32, 8, 48, 48)      | Memory: 1.125 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(640, 1, 36)         | Memory: 0.1757 M | <class 'torch.Tensor'> | torch.float32
++ | 1 * Size:(32, 2048)           | Memory: 0.125 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(32, 1024)           | Memory: 0.125 M | <class 'torch.Tensor'> | torch.float16
++ | 1 * Size:(32, 320)            | Memory: 0.0195 M | <class 'torch.Tensor'> | torch.float16
++ | 1 * Size:(4, 8, 3)            | Memory: 0.0003 M | <class 'torch.Tensor'> | torch.float32
++ | 1 * Size:(32,)                | Memory: 0.0002 M | <class 'torch.Tensor'> | torch.int64
++ | 1 * Size:(4, 8, 2)            | Memory: 0.0002 M | <class 'torch.Tensor'> | torch.float32
++ | 2 * Size:(32, 1)              | Memory: 0.0001 M | <class 'torch.Tensor'> | torch.float16
++ | 5 * Size:(4,)                 | Memory: 7.6293 M | <class 'torch.Tensor'> | torch.float32
++ | 1 * Size:(4, 8, 1, 1, 1)      | Memory: 6.1035 M | <class 'torch.Tensor'> | torch.float16
++ | 1 * Size:(4, 8, 1)            | Memory: 6.1035 M | <class 'torch.Tensor'> | torch.float16
++ | 1 * Size:(32,)                | Memory: 6.1035 M | <class 'torch.Tensor'> | torch.float16
++ | 1 * Size:(32, 1, 1, 1)        | Memory: 6.1035 M | <class 'torch.Tensor'> | torch.float16
++ | 1 * Size:(1,)                 | Memory: 7.6293 M | <class 'torch.Tensor'> | torch.int64
+- | 4 * Size:(4,)                 | Memory: 6.1035 M | <class 'torch.Tensor'> | torch.float32
+
+At /home/czh5/multimodal/deepspeed-mvdiffusion/train_mvdiffusion_image_sd21_unclip_ds.py line 834: main Total Tensor Used Memory:37081.0Mb Total Allocated Memory:34353.1Mb
+
++ | 40 * Size:(1280, 1280, 3, 3)   | Memory: 1125.0 M | <class 'torch.Tensor'> | torch.float16
++ | 40 * Size:(1280, 1280, 3, 3)   | Memory: 1125.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 252 * Size:(1280, 1280)         | Memory: 787.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 252 * Size:(1280, 1280)         | Memory: 787.5 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(1280, 2560, 3, 3)   | Memory: 562.5 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(1280, 2560, 3, 3)   | Memory: 562.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 44 * Size:(1280, 5120)         | Memory: 550.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 44 * Size:(1280, 5120)         | Memory: 550.0 M | <class 'torch.Tensor'> | torch.float16
++ | 12 * Size:(10240, 1280)        | Memory: 300.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 12 * Size:(10240, 1280)        | Memory: 300.0 M | <class 'torch.Tensor'> | torch.float16
++ | 16 * Size:(640, 640, 3, 3)     | Memory: 112.5 M | <class 'torch.Tensor'> | torch.float16
++ | 16 * Size:(640, 640, 3, 3)     | Memory: 112.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(1280, 1920, 3, 3)   | Memory: 84.375 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(1280, 1920, 3, 3)   | Memory: 84.375 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(5120, 640)          | Memory: 62.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 80 * Size:(640, 640)           | Memory: 62.5 M | <class 'torch.Tensor'> | torch.float16
++ | 80 * Size:(640, 640)           | Memory: 62.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 10 * Size:(1280, 2560, 1, 1)   | Memory: 62.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 10 * Size:(1280, 2560, 1, 1)   | Memory: 62.5 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(5120, 640)          | Memory: 62.5 M | <class 'torch.Tensor'> | torch.float16
++ | 24 * Size:(1280, 1024)         | Memory: 60.0 M | <class 'torch.Tensor'> | torch.float16
++ | 24 * Size:(1280, 1024)         | Memory: 60.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(640, 1920, 3, 3)    | Memory: 42.187 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(640, 1920, 3, 3)    | Memory: 42.187 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(640, 2560)          | Memory: 31.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 10 * Size:(640, 2560)          | Memory: 31.25 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(640, 1280, 3, 3)    | Memory: 28.125 M | <class 'torch.Tensor'> | torch.float16
++ | 16 * Size:(320, 320, 3, 3)     | Memory: 28.125 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(640, 1280, 3, 3)    | Memory: 28.125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 16 * Size:(320, 320, 3, 3)     | Memory: 28.125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(1280, 640, 3, 3)    | Memory: 28.125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(1280, 640, 3, 3)    | Memory: 28.125 M | <class 'torch.Tensor'> | torch.float16
++ | 20 * Size:(640, 1024)          | Memory: 25.0 M | <class 'torch.Tensor'> | torch.float16
++ | 20 * Size:(640, 1024)          | Memory: 25.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(640, 960, 3, 3)     | Memory: 21.093 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(640, 960, 3, 3)     | Memory: 21.093 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(640, 1280)          | Memory: 15.625 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(640, 1280)          | Memory: 15.625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 20 * Size:(320, 1280)          | Memory: 15.625 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(2560, 320)          | Memory: 15.625 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(2560, 320)          | Memory: 15.625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 80 * Size:(320, 320)           | Memory: 15.625 M | <class 'torch.Tensor'> | torch.float16
++ | 80 * Size:(320, 320)           | Memory: 15.625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 20 * Size:(320, 1280)          | Memory: 15.625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 4 * Size:(320, 640, 3, 3)     | Memory: 14.062 M | <class 'torch.Tensor'> | torch.float16
++ | 4 * Size:(320, 640, 3, 3)     | Memory: 14.062 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 20 * Size:(320, 1024)          | Memory: 12.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 20 * Size:(320, 1024)          | Memory: 12.5 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(320, 960, 3, 3)     | Memory: 10.546 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(320, 960, 3, 3)     | Memory: 10.546 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(1280, 2048)         | Memory: 10.0 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(1280, 2048)         | Memory: 10.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(1280, 1920, 1, 1)   | Memory: 9.375 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(1280, 1920, 1, 1)   | Memory: 9.375 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(640, 320, 3, 3)     | Memory: 7.0312 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(640, 320, 3, 3)     | Memory: 7.0312 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(640, 1920, 1, 1)    | Memory: 4.6875 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(640, 1920, 1, 1)    | Memory: 4.6875 M | <class 'torch.Tensor'> | torch.float16
++ | 6 * Size:(32, 4, 48, 48)      | Memory: 3.375 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(640, 1280, 1, 1)    | Memory: 3.125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(640, 1280, 1, 1)    | Memory: 3.125 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(1280, 640, 1, 1)    | Memory: 3.125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(1280, 640, 1, 1)    | Memory: 3.125 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(640, 960, 1, 1)     | Memory: 2.3437 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(640, 960, 1, 1)     | Memory: 2.3437 M | <class 'torch.Tensor'> | torch.float16
++ | 4 * Size:(320, 640, 1, 1)     | Memory: 1.5625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 4 * Size:(320, 640, 1, 1)     | Memory: 1.5625 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(1280, 320)          | Memory: 1.5625 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(1280, 320)          | Memory: 1.5625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 621 * Size:(1280,)              | Memory: 1.5161 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 621 * Size:(1280,)              | Memory: 1.5161 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(320, 960, 1, 1)     | Memory: 1.1718 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(320, 960, 1, 1)     | Memory: 1.1718 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(640, 320, 1, 1)     | Memory: 0.7812 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(640, 320, 1, 1)     | Memory: 0.7812 M | <class 'torch.Tensor'> | torch.float16
++ | 42 * Size:(5120,)              | Memory: 0.4101 M | <class 'torch.Tensor'> | torch.float16
++ | 42 * Size:(5120,)              | Memory: 0.4101 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 208 * Size:(640,)               | Memory: 0.2539 M | <class 'torch.Tensor'> | torch.float16
++ | 208 * Size:(640,)               | Memory: 0.2539 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 12 * Size:(10240,)             | Memory: 0.2343 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 12 * Size:(10240,)             | Memory: 0.2343 M | <class 'torch.Tensor'> | torch.float16
++ | 30 * Size:(2560,)              | Memory: 0.1464 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 30 * Size:(2560,)              | Memory: 0.1464 M | <class 'torch.Tensor'> | torch.float16
++ | 206 * Size:(320,)               | Memory: 0.1257 M | <class 'torch.Tensor'> | torch.float16
++ | 206 * Size:(320,)               | Memory: 0.1257 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(320, 8, 3, 3)       | Memory: 0.0878 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(320, 8, 3, 3)       | Memory: 0.0878 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(4, 320, 3, 3)       | Memory: 0.0439 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(4, 320, 3, 3)       | Memory: 0.0439 M | <class 'torch.Tensor'> | torch.float16
++ | 8 * Size:(1920,)              | Memory: 0.0292 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 8 * Size:(1920,)              | Memory: 0.0292 M | <class 'torch.Tensor'> | torch.float16
++ | 8 * Size:(960,)               | Memory: 0.0146 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 8 * Size:(960,)               | Memory: 0.0146 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(32,)                | Memory: 0.0002 M | <class 'torch.Tensor'> | torch.float32
++ | 1 * Size:(32, 1)              | Memory: 6.1035 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(4,)                 | Memory: 2.2888 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(4,)                 | Memory: 2.2888 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 3 * Size:()                   | Memory: 5.7220 M | <class 'torch.Tensor'> | torch.float16
+- | 20 * Size:(32, 2304, 1280)     | Memory: 3600.0 M | <class 'torch.Tensor'> | torch.float16
+- | 45 * Size:(32, 2304, 320)      | Memory: 2025.0 M | <class 'torch.Tensor'> | torch.float16
+- | 20 * Size:(32, 576, 2560)      | Memory: 1800.0 M | <class 'torch.Tensor'> | torch.float16
+- | 30 * Size:(160, 2304, 1, 64)   | Memory: 1350.0 M | <class 'torch.Tensor'> | torch.float16
+- | 30 * Size:(32, 320, 48, 48)    | Memory: 1350.0 M | <class 'torch.Tensor'> | torch.float16
+- | 45 * Size:(32, 576, 640)       | Memory: 1012.5 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 4608, 64)      | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 4608, 1, 64)   | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
+- | 20 * Size:(32, 144, 5120)      | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
+- | 30 * Size:(320, 576, 1, 64)    | Memory: 675.0 M | <class 'torch.Tensor'> | torch.float16
+- | 7 * Size:(32, 640, 48, 48)    | Memory: 630.0 M | <class 'torch.Tensor'> | torch.float16
+- | 190 * Size:(1280, 1280)         | Memory: 593.75 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 20 * Size:(1280, 1280, 3, 3)   | Memory: 562.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 24 * Size:(32, 640, 24, 24)    | Memory: 540.0 M | <class 'torch.Tensor'> | torch.float16
+- | 45 * Size:(32, 144, 1280)      | Memory: 506.25 M | <class 'torch.Tensor'> | torch.float16
+- | 38 * Size:(1280, 5120)         | Memory: 475.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 10 * Size:(320, 1152, 1, 64)   | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 2304, 64)      | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(320, 1152, 64)      | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(32, 960, 48, 48)    | Memory: 405.0 M | <class 'torch.Tensor'> | torch.float16
+- | 30 * Size:(640, 144, 1, 64)    | Memory: 337.5 M | <class 'torch.Tensor'> | torch.float16
+- | 5 * Size:(1280, 2560, 3, 3)   | Memory: 281.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 25 * Size:(32, 1280, 12, 12)   | Memory: 281.25 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(640, 288, 1, 64)    | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(640, 288, 64)       | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(320, 576, 64)       | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(32, 1920, 24, 24)   | Memory: 202.5 M | <class 'torch.Tensor'> | torch.float16
+- | 4 * Size:(32, 1280, 24, 24)   | Memory: 180.0 M | <class 'torch.Tensor'> | torch.float16
+- | 6 * Size:(10240, 1280)        | Memory: 150.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 6 * Size:(32, 2560, 12, 12)   | Memory: 135.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(640, 144, 64)       | Memory: 112.5 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(32, 960, 24, 24)    | Memory: 101.25 M | <class 'torch.Tensor'> | torch.float16
+- | 34 * Size:(32, 1280, 6, 6)     | Memory: 95.625 M | <class 'torch.Tensor'> | torch.float16
+- | 12 * Size:(640, 77, 64)        | Memory: 72.187 M | <class 'torch.Tensor'> | torch.float16
+- | 12 * Size:(640, 77, 1, 64)     | Memory: 72.187 M | <class 'torch.Tensor'> | torch.float16
+- | 8 * Size:(640, 640, 3, 3)     | Memory: 56.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 3 * Size:(32, 1920, 12, 12)   | Memory: 50.625 M | <class 'torch.Tensor'> | torch.float16
+- | 9 * Size:(32, 2560, 6, 6)     | Memory: 50.625 M | <class 'torch.Tensor'> | torch.float16
+- | 4 * Size:(32, 36, 5120)       | Memory: 45.0 M | <class 'torch.Tensor'> | torch.float16
+- | 1 * Size:(1280, 1920, 3, 3)   | Memory: 42.187 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 3 * Size:(32, 320, 24, 24)    | Memory: 33.75 M | <class 'torch.Tensor'> | torch.float16
+- | 5 * Size:(1280, 2560, 1, 1)   | Memory: 31.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 40 * Size:(640, 640)           | Memory: 31.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 5 * Size:(5120, 640)          | Memory: 31.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 10 * Size:(320, 77, 64)        | Memory: 30.078 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(320, 77, 1, 64)     | Memory: 30.078 M | <class 'torch.Tensor'> | torch.float16
+- | 12 * Size:(1280, 1024)         | Memory: 30.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 9 * Size:(32, 36, 1280)       | Memory: 25.312 M | <class 'torch.Tensor'> | torch.float16
+- | 1 * Size:(640, 1920, 3, 3)    | Memory: 21.093 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 6 * Size:(640, 36, 1, 64)     | Memory: 16.875 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(32, 640, 12, 12)    | Memory: 16.875 M | <class 'torch.Tensor'> | torch.float16
+- | 5 * Size:(640, 2560)          | Memory: 15.625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 10 * Size:(160, 77, 64)        | Memory: 15.039 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 77, 1, 64)     | Memory: 15.039 M | <class 'torch.Tensor'> | torch.float16
+- | 1 * Size:(640, 1280, 3, 3)    | Memory: 14.062 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 10 * Size:(160, 1, 2304)       | Memory: 14.062 M | <class 'torch.Tensor'> | torch.float32
+- | 8 * Size:(320, 320, 3, 3)     | Memory: 14.062 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 1 * Size:(1280, 640, 3, 3)    | Memory: 14.062 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 10 * Size:(640, 1024)          | Memory: 12.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(640, 72, 64)        | Memory: 11.25 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(640, 72, 1, 64)     | Memory: 11.25 M | <class 'torch.Tensor'> | torch.float16
+- | 1 * Size:(640, 960, 3, 3)     | Memory: 10.546 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 10 * Size:(320, 1280)          | Memory: 7.8125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 5 * Size:(640, 1280)          | Memory: 7.8125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 5 * Size:(2560, 320)          | Memory: 7.8125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 40 * Size:(320, 320)           | Memory: 7.8125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 10 * Size:(320, 1, 576)        | Memory: 7.0312 M | <class 'torch.Tensor'> | torch.float32
+- | 2 * Size:(320, 640, 3, 3)     | Memory: 7.0312 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 10 * Size:(320, 1024)          | Memory: 6.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(640, 36, 64)        | Memory: 5.625 M | <class 'torch.Tensor'> | torch.float16
+- | 1 * Size:(320, 960, 3, 3)     | Memory: 5.2734 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 1 * Size:(1280, 2048)         | Memory: 5.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 1 * Size:(1280, 1920, 1, 1)   | Memory: 4.6875 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 1 * Size:(640, 320, 3, 3)     | Memory: 3.5156 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 10 * Size:(640, 1, 144)        | Memory: 3.5156 M | <class 'torch.Tensor'> | torch.float32
+- | 5 * Size:(32, 4, 48, 48)      | Memory: 2.8125 M | <class 'torch.Tensor'> | torch.float16
+- | 1 * Size:(640, 1920, 1, 1)    | Memory: 2.3437 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 27 * Size:(32, 1280)           | Memory: 2.1093 M | <class 'torch.Tensor'> | torch.float16
+- | 1 * Size:(1280, 640, 1, 1)    | Memory: 1.5625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 1 * Size:(640, 1280, 1, 1)    | Memory: 1.5625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 1 * Size:(640, 960, 1, 1)     | Memory: 1.1718 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 457 * Size:(1280,)              | Memory: 1.1157 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 1 * Size:(1280, 320)          | Memory: 0.7812 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(320, 640, 1, 1)     | Memory: 0.7812 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 1 * Size:(320, 960, 1, 1)     | Memory: 0.5859 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 1 * Size:(640, 320, 1, 1)     | Memory: 0.3906 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 37 * Size:(5120,)              | Memory: 0.3613 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(640, 1, 36)         | Memory: 0.1757 M | <class 'torch.Tensor'> | torch.float32
+- | 104 * Size:(640,)               | Memory: 0.1269 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(32, 1024)           | Memory: 0.125 M | <class 'torch.Tensor'> | torch.float16
+- | 6 * Size:(10240,)             | Memory: 0.1171 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 15 * Size:(2560,)              | Memory: 0.0732 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 103 * Size:(320,)               | Memory: 0.0628 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 1 * Size:(320, 8, 3, 3)       | Memory: 0.0439 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 1 * Size:(4, 320, 3, 3)       | Memory: 0.0219 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 1 * Size:(32, 320)            | Memory: 0.0195 M | <class 'torch.Tensor'> | torch.float16
+- | 4 * Size:(1920,)              | Memory: 0.0146 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 4 * Size:(960,)               | Memory: 0.0073 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(32, 1)              | Memory: 0.0001 M | <class 'torch.Tensor'> | torch.float16
+- | 1 * Size:(32,)                | Memory: 6.1035 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(4,)                 | Memory: 1.5258 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+
+At /home/czh5/multimodal/deepspeed-mvdiffusion/train_mvdiffusion_image_sd21_unclip_ds.py line 882: main Total Tensor Used Memory:18148.0Mb Total Allocated Memory:18286.9Mb
+
++ | 20 * Size:(32, 2304, 1280)     | Memory: 3600.0 M | <class 'torch.Tensor'> | torch.float16
++ | 45 * Size:(32, 2304, 320)      | Memory: 2025.0 M | <class 'torch.Tensor'> | torch.float16
++ | 20 * Size:(32, 576, 2560)      | Memory: 1800.0 M | <class 'torch.Tensor'> | torch.float16
++ | 30 * Size:(160, 2304, 1, 64)   | Memory: 1350.0 M | <class 'torch.Tensor'> | torch.float16
++ | 30 * Size:(32, 320, 48, 48)    | Memory: 1350.0 M | <class 'torch.Tensor'> | torch.float16
++ | 45 * Size:(32, 576, 640)       | Memory: 1012.5 M | <class 'torch.Tensor'> | torch.float16
++ | 20 * Size:(32, 144, 5120)      | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 4608, 64)      | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 4608, 1, 64)   | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
++ | 30 * Size:(320, 576, 1, 64)    | Memory: 675.0 M | <class 'torch.Tensor'> | torch.float16
++ | 7 * Size:(32, 640, 48, 48)    | Memory: 630.0 M | <class 'torch.Tensor'> | torch.float16
++ | 24 * Size:(32, 640, 24, 24)    | Memory: 540.0 M | <class 'torch.Tensor'> | torch.float16
++ | 45 * Size:(32, 144, 1280)      | Memory: 506.25 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 1152, 1, 64)   | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 1152, 64)      | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 2304, 64)      | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 960, 48, 48)    | Memory: 405.0 M | <class 'torch.Tensor'> | torch.float16
++ | 30 * Size:(640, 144, 1, 64)    | Memory: 337.5 M | <class 'torch.Tensor'> | torch.float16
++ | 25 * Size:(32, 1280, 12, 12)   | Memory: 281.25 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(640, 288, 64)       | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 576, 64)       | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(640, 288, 1, 64)    | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 1920, 24, 24)   | Memory: 202.5 M | <class 'torch.Tensor'> | torch.float16
++ | 4 * Size:(32, 1280, 24, 24)   | Memory: 180.0 M | <class 'torch.Tensor'> | torch.float16
++ | 6 * Size:(32, 2560, 12, 12)   | Memory: 135.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(640, 144, 64)       | Memory: 112.5 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 960, 24, 24)    | Memory: 101.25 M | <class 'torch.Tensor'> | torch.float16
++ | 34 * Size:(32, 1280, 6, 6)     | Memory: 95.625 M | <class 'torch.Tensor'> | torch.float16
++ | 12 * Size:(640, 77, 64)        | Memory: 72.187 M | <class 'torch.Tensor'> | torch.float16
++ | 12 * Size:(640, 77, 1, 64)     | Memory: 72.187 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 1920, 12, 12)   | Memory: 50.625 M | <class 'torch.Tensor'> | torch.float16
++ | 9 * Size:(32, 2560, 6, 6)     | Memory: 50.625 M | <class 'torch.Tensor'> | torch.float16
++ | 4 * Size:(32, 36, 5120)       | Memory: 45.0 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 320, 24, 24)    | Memory: 33.75 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 77, 64)        | Memory: 30.078 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 77, 1, 64)     | Memory: 30.078 M | <class 'torch.Tensor'> | torch.float16
++ | 9 * Size:(32, 36, 1280)       | Memory: 25.312 M | <class 'torch.Tensor'> | torch.float16
++ | 6 * Size:(640, 36, 1, 64)     | Memory: 16.875 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 640, 12, 12)    | Memory: 16.875 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 77, 1, 64)     | Memory: 15.039 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 77, 64)        | Memory: 15.039 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 1, 2304)       | Memory: 14.062 M | <class 'torch.Tensor'> | torch.float32
++ | 2 * Size:(640, 72, 64)        | Memory: 11.25 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(640, 72, 1, 64)     | Memory: 11.25 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 1, 576)        | Memory: 7.0312 M | <class 'torch.Tensor'> | torch.float32
++ | 2 * Size:(640, 36, 64)        | Memory: 5.625 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(640, 1, 144)        | Memory: 3.5156 M | <class 'torch.Tensor'> | torch.float32
++ | 27 * Size:(32, 1280)           | Memory: 2.1093 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(640, 1, 36)         | Memory: 0.1757 M | <class 'torch.Tensor'> | torch.float32
++ | 2 * Size:(32, 1024)           | Memory: 0.125 M | <class 'torch.Tensor'> | torch.float16
++ | 1 * Size:(32, 320)            | Memory: 0.0195 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(32, 1)              | Memory: 0.0001 M | <class 'torch.Tensor'> | torch.float16
++ | 1 * Size:(32,)                | Memory: 6.1035 M | <class 'torch.Tensor'> | torch.float16
+- | 1 * Size:(32, 1)              | Memory: 6.1035 M | <class 'torch.Tensor'> | torch.float16
+
+At /home/czh5/multimodal/deepspeed-mvdiffusion/train_mvdiffusion_image_sd21_unclip_ds.py line 834: main Total Tensor Used Memory:38741.3Mb Total Allocated Memory:36021.2Mb
+
++ | 190 * Size:(1280, 1280)         | Memory: 593.75 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 20 * Size:(1280, 1280, 3, 3)   | Memory: 562.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 38 * Size:(1280, 5120)         | Memory: 475.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 5 * Size:(1280, 2560, 3, 3)   | Memory: 281.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 6 * Size:(10240, 1280)        | Memory: 150.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 8 * Size:(640, 640, 3, 3)     | Memory: 56.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(1280, 1920, 3, 3)   | Memory: 42.187 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 5 * Size:(5120, 640)          | Memory: 31.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 40 * Size:(640, 640)           | Memory: 31.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 5 * Size:(1280, 2560, 1, 1)   | Memory: 31.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 12 * Size:(1280, 1024)         | Memory: 30.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(640, 1920, 3, 3)    | Memory: 21.093 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 5 * Size:(640, 2560)          | Memory: 15.625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 8 * Size:(320, 320, 3, 3)     | Memory: 14.062 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(640, 1280, 3, 3)    | Memory: 14.062 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(1280, 640, 3, 3)    | Memory: 14.062 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 10 * Size:(640, 1024)          | Memory: 12.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(640, 960, 3, 3)     | Memory: 10.546 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 10 * Size:(320, 1280)          | Memory: 7.8125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 5 * Size:(640, 1280)          | Memory: 7.8125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 5 * Size:(2560, 320)          | Memory: 7.8125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 40 * Size:(320, 320)           | Memory: 7.8125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(320, 640, 3, 3)     | Memory: 7.0312 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 10 * Size:(320, 1024)          | Memory: 6.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(320, 960, 3, 3)     | Memory: 5.2734 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(1280, 2048)         | Memory: 5.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(1280, 1920, 1, 1)   | Memory: 4.6875 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(640, 320, 3, 3)     | Memory: 3.5156 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(640, 1920, 1, 1)    | Memory: 2.3437 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(1280, 640, 1, 1)    | Memory: 1.5625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(640, 1280, 1, 1)    | Memory: 1.5625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(640, 960, 1, 1)     | Memory: 1.1718 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 457 * Size:(1280,)              | Memory: 1.1157 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:(320, 640, 1, 1)     | Memory: 0.7812 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(1280, 320)          | Memory: 0.7812 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(320, 960, 1, 1)     | Memory: 0.5859 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(640, 320, 1, 1)     | Memory: 0.3906 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 37 * Size:(5120,)              | Memory: 0.3613 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 104 * Size:(640,)               | Memory: 0.1269 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 6 * Size:(10240,)             | Memory: 0.1171 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 15 * Size:(2560,)              | Memory: 0.0732 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 103 * Size:(320,)               | Memory: 0.0628 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(320, 8, 3, 3)       | Memory: 0.0439 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(4, 320, 3, 3)       | Memory: 0.0219 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 4 * Size:(1920,)              | Memory: 0.0146 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 4 * Size:(960,)               | Memory: 0.0073 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 1 * Size:(32, 1)              | Memory: 6.1035 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(4,)                 | Memory: 1.5258 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
++ | 2 * Size:()                   | Memory: 3.8146 M | <class 'torch.Tensor'> | torch.float16
+- | 20 * Size:(32, 2304, 1280)     | Memory: 3600.0 M | <class 'torch.Tensor'> | torch.float16
+- | 45 * Size:(32, 2304, 320)      | Memory: 2025.0 M | <class 'torch.Tensor'> | torch.float16
+- | 20 * Size:(32, 576, 2560)      | Memory: 1800.0 M | <class 'torch.Tensor'> | torch.float16
+- | 30 * Size:(160, 2304, 1, 64)   | Memory: 1350.0 M | <class 'torch.Tensor'> | torch.float16
+- | 30 * Size:(32, 320, 48, 48)    | Memory: 1350.0 M | <class 'torch.Tensor'> | torch.float16
+- | 40 * Size:(1280, 1280, 3, 3)   | Memory: 1125.0 M | <class 'torch.Tensor'> | torch.float16
+- | 40 * Size:(1280, 1280, 3, 3)   | Memory: 1125.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 45 * Size:(32, 576, 640)       | Memory: 1012.5 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 4608, 64)      | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 4608, 1, 64)   | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
+- | 20 * Size:(32, 144, 5120)      | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
+- | 252 * Size:(1280, 1280)         | Memory: 787.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 252 * Size:(1280, 1280)         | Memory: 787.5 M | <class 'torch.Tensor'> | torch.float16
+- | 30 * Size:(320, 576, 1, 64)    | Memory: 675.0 M | <class 'torch.Tensor'> | torch.float16
+- | 7 * Size:(32, 640, 48, 48)    | Memory: 630.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(1280, 2560, 3, 3)   | Memory: 562.5 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(1280, 2560, 3, 3)   | Memory: 562.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 44 * Size:(1280, 5120)         | Memory: 550.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 44 * Size:(1280, 5120)         | Memory: 550.0 M | <class 'torch.Tensor'> | torch.float16
+- | 24 * Size:(32, 640, 24, 24)    | Memory: 540.0 M | <class 'torch.Tensor'> | torch.float16
+- | 45 * Size:(32, 144, 1280)      | Memory: 506.25 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(320, 1152, 1, 64)   | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 2304, 64)      | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(320, 1152, 64)      | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(32, 960, 48, 48)    | Memory: 405.0 M | <class 'torch.Tensor'> | torch.float16
+- | 30 * Size:(640, 144, 1, 64)    | Memory: 337.5 M | <class 'torch.Tensor'> | torch.float16
+- | 12 * Size:(10240, 1280)        | Memory: 300.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 12 * Size:(10240, 1280)        | Memory: 300.0 M | <class 'torch.Tensor'> | torch.float16
+- | 25 * Size:(32, 1280, 12, 12)   | Memory: 281.25 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(640, 288, 1, 64)    | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(640, 288, 64)       | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(320, 576, 64)       | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(32, 1920, 24, 24)   | Memory: 202.5 M | <class 'torch.Tensor'> | torch.float16
+- | 4 * Size:(32, 1280, 24, 24)   | Memory: 180.0 M | <class 'torch.Tensor'> | torch.float16
+- | 6 * Size:(32, 2560, 12, 12)   | Memory: 135.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(640, 144, 64)       | Memory: 112.5 M | <class 'torch.Tensor'> | torch.float16
+- | 16 * Size:(640, 640, 3, 3)     | Memory: 112.5 M | <class 'torch.Tensor'> | torch.float16
+- | 16 * Size:(640, 640, 3, 3)     | Memory: 112.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 3 * Size:(32, 960, 24, 24)    | Memory: 101.25 M | <class 'torch.Tensor'> | torch.float16
+- | 34 * Size:(32, 1280, 6, 6)     | Memory: 95.625 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(1280, 1920, 3, 3)   | Memory: 84.375 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(1280, 1920, 3, 3)   | Memory: 84.375 M | <class 'torch.Tensor'> | torch.float16
+- | 12 * Size:(640, 77, 64)        | Memory: 72.187 M | <class 'torch.Tensor'> | torch.float16
+- | 12 * Size:(640, 77, 1, 64)     | Memory: 72.187 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(5120, 640)          | Memory: 62.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 80 * Size:(640, 640)           | Memory: 62.5 M | <class 'torch.Tensor'> | torch.float16
+- | 80 * Size:(640, 640)           | Memory: 62.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 10 * Size:(1280, 2560, 1, 1)   | Memory: 62.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 10 * Size:(1280, 2560, 1, 1)   | Memory: 62.5 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(5120, 640)          | Memory: 62.5 M | <class 'torch.Tensor'> | torch.float16
+- | 24 * Size:(1280, 1024)         | Memory: 60.0 M | <class 'torch.Tensor'> | torch.float16
+- | 24 * Size:(1280, 1024)         | Memory: 60.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 3 * Size:(32, 1920, 12, 12)   | Memory: 50.625 M | <class 'torch.Tensor'> | torch.float16
+- | 9 * Size:(32, 2560, 6, 6)     | Memory: 50.625 M | <class 'torch.Tensor'> | torch.float16
+- | 4 * Size:(32, 36, 5120)       | Memory: 45.0 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(640, 1920, 3, 3)    | Memory: 42.187 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(640, 1920, 3, 3)    | Memory: 42.187 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(32, 320, 24, 24)    | Memory: 33.75 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(640, 2560)          | Memory: 31.25 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 10 * Size:(640, 2560)          | Memory: 31.25 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(320, 77, 64)        | Memory: 30.078 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(320, 77, 1, 64)     | Memory: 30.078 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(640, 1280, 3, 3)    | Memory: 28.125 M | <class 'torch.Tensor'> | torch.float16
+- | 16 * Size:(320, 320, 3, 3)     | Memory: 28.125 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(640, 1280, 3, 3)    | Memory: 28.125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 16 * Size:(320, 320, 3, 3)     | Memory: 28.125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(1280, 640, 3, 3)    | Memory: 28.125 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(1280, 640, 3, 3)    | Memory: 28.125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 9 * Size:(32, 36, 1280)       | Memory: 25.312 M | <class 'torch.Tensor'> | torch.float16
+- | 20 * Size:(640, 1024)          | Memory: 25.0 M | <class 'torch.Tensor'> | torch.float16
+- | 20 * Size:(640, 1024)          | Memory: 25.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(640, 960, 3, 3)     | Memory: 21.093 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(640, 960, 3, 3)     | Memory: 21.093 M | <class 'torch.Tensor'> | torch.float16
+- | 6 * Size:(640, 36, 1, 64)     | Memory: 16.875 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(32, 640, 12, 12)    | Memory: 16.875 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(640, 1280)          | Memory: 15.625 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(640, 1280)          | Memory: 15.625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 20 * Size:(320, 1280)          | Memory: 15.625 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(2560, 320)          | Memory: 15.625 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(2560, 320)          | Memory: 15.625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 80 * Size:(320, 320)           | Memory: 15.625 M | <class 'torch.Tensor'> | torch.float16
+- | 80 * Size:(320, 320)           | Memory: 15.625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 20 * Size:(320, 1280)          | Memory: 15.625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 10 * Size:(160, 77, 64)        | Memory: 15.039 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 77, 1, 64)     | Memory: 15.039 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 1, 2304)       | Memory: 14.062 M | <class 'torch.Tensor'> | torch.float32
+- | 4 * Size:(320, 640, 3, 3)     | Memory: 14.062 M | <class 'torch.Tensor'> | torch.float16
+- | 4 * Size:(320, 640, 3, 3)     | Memory: 14.062 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 20 * Size:(320, 1024)          | Memory: 12.5 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 20 * Size:(320, 1024)          | Memory: 12.5 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(640, 72, 64)        | Memory: 11.25 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(640, 72, 1, 64)     | Memory: 11.25 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(320, 960, 3, 3)     | Memory: 10.546 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(320, 960, 3, 3)     | Memory: 10.546 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(1280, 2048)         | Memory: 10.0 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(1280, 2048)         | Memory: 10.0 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(1280, 1920, 1, 1)   | Memory: 9.375 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(1280, 1920, 1, 1)   | Memory: 9.375 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(640, 320, 3, 3)     | Memory: 7.0312 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 10 * Size:(320, 1, 576)        | Memory: 7.0312 M | <class 'torch.Tensor'> | torch.float32
+- | 2 * Size:(640, 320, 3, 3)     | Memory: 7.0312 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(640, 36, 64)        | Memory: 5.625 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(640, 1920, 1, 1)    | Memory: 4.6875 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(640, 1920, 1, 1)    | Memory: 4.6875 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(640, 1, 144)        | Memory: 3.5156 M | <class 'torch.Tensor'> | torch.float32
+- | 2 * Size:(640, 1280, 1, 1)    | Memory: 3.125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(640, 1280, 1, 1)    | Memory: 3.125 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(1280, 640, 1, 1)    | Memory: 3.125 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(1280, 640, 1, 1)    | Memory: 3.125 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(640, 960, 1, 1)     | Memory: 2.3437 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(640, 960, 1, 1)     | Memory: 2.3437 M | <class 'torch.Tensor'> | torch.float16
+- | 27 * Size:(32, 1280)           | Memory: 2.1093 M | <class 'torch.Tensor'> | torch.float16
+- | 4 * Size:(320, 640, 1, 1)     | Memory: 1.5625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 4 * Size:(320, 640, 1, 1)     | Memory: 1.5625 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(1280, 320)          | Memory: 1.5625 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(1280, 320)          | Memory: 1.5625 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 621 * Size:(1280,)              | Memory: 1.5161 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 621 * Size:(1280,)              | Memory: 1.5161 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(320, 960, 1, 1)     | Memory: 1.1718 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(320, 960, 1, 1)     | Memory: 1.1718 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(640, 320, 1, 1)     | Memory: 0.7812 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(640, 320, 1, 1)     | Memory: 0.7812 M | <class 'torch.Tensor'> | torch.float16
+- | 42 * Size:(5120,)              | Memory: 0.4101 M | <class 'torch.Tensor'> | torch.float16
+- | 42 * Size:(5120,)              | Memory: 0.4101 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 208 * Size:(640,)               | Memory: 0.2539 M | <class 'torch.Tensor'> | torch.float16
+- | 208 * Size:(640,)               | Memory: 0.2539 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 12 * Size:(10240,)             | Memory: 0.2343 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 12 * Size:(10240,)             | Memory: 0.2343 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(640, 1, 36)         | Memory: 0.1757 M | <class 'torch.Tensor'> | torch.float32
+- | 30 * Size:(2560,)              | Memory: 0.1464 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 30 * Size:(2560,)              | Memory: 0.1464 M | <class 'torch.Tensor'> | torch.float16
+- | 206 * Size:(320,)               | Memory: 0.1257 M | <class 'torch.Tensor'> | torch.float16
+- | 206 * Size:(320,)               | Memory: 0.1257 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(32, 1024)           | Memory: 0.125 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(320, 8, 3, 3)       | Memory: 0.0878 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(320, 8, 3, 3)       | Memory: 0.0878 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(4, 320, 3, 3)       | Memory: 0.0439 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 2 * Size:(4, 320, 3, 3)       | Memory: 0.0439 M | <class 'torch.Tensor'> | torch.float16
+- | 8 * Size:(1920,)              | Memory: 0.0292 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 8 * Size:(1920,)              | Memory: 0.0292 M | <class 'torch.Tensor'> | torch.float16
+- | 1 * Size:(32, 320)            | Memory: 0.0195 M | <class 'torch.Tensor'> | torch.float16
+- | 8 * Size:(960,)               | Memory: 0.0146 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 8 * Size:(960,)               | Memory: 0.0146 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(32, 1)              | Memory: 0.0001 M | <class 'torch.Tensor'> | torch.float16
+- | 1 * Size:(32,)                | Memory: 6.1035 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(4,)                 | Memory: 2.2888 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(4,)                 | Memory: 2.2888 M | <class 'torch.nn.parameter.Parameter'> | torch.float16
+- | 3 * Size:()                   | Memory: 5.7220 M | <class 'torch.Tensor'> | torch.float16
+
+At /home/czh5/multimodal/deepspeed-mvdiffusion/train_mvdiffusion_image_sd21_unclip_ds.py line 882: main Total Tensor Used Memory:16488.3Mb Total Allocated Memory:16611.4Mb
+
++ | 20 * Size:(32, 2304, 1280)     | Memory: 3600.0 M | <class 'torch.Tensor'> | torch.float16
++ | 45 * Size:(32, 2304, 320)      | Memory: 2025.0 M | <class 'torch.Tensor'> | torch.float16
++ | 20 * Size:(32, 576, 2560)      | Memory: 1800.0 M | <class 'torch.Tensor'> | torch.float16
++ | 30 * Size:(160, 2304, 1, 64)   | Memory: 1350.0 M | <class 'torch.Tensor'> | torch.float16
++ | 30 * Size:(32, 320, 48, 48)    | Memory: 1350.0 M | <class 'torch.Tensor'> | torch.float16
++ | 45 * Size:(32, 576, 640)       | Memory: 1012.5 M | <class 'torch.Tensor'> | torch.float16
++ | 20 * Size:(32, 144, 5120)      | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 4608, 64)      | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 4608, 1, 64)   | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
++ | 30 * Size:(320, 576, 1, 64)    | Memory: 675.0 M | <class 'torch.Tensor'> | torch.float16
++ | 7 * Size:(32, 640, 48, 48)    | Memory: 630.0 M | <class 'torch.Tensor'> | torch.float16
++ | 24 * Size:(32, 640, 24, 24)    | Memory: 540.0 M | <class 'torch.Tensor'> | torch.float16
++ | 45 * Size:(32, 144, 1280)      | Memory: 506.25 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 1152, 1, 64)   | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 1152, 64)      | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 2304, 64)      | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 960, 48, 48)    | Memory: 405.0 M | <class 'torch.Tensor'> | torch.float16
++ | 30 * Size:(640, 144, 1, 64)    | Memory: 337.5 M | <class 'torch.Tensor'> | torch.float16
++ | 25 * Size:(32, 1280, 12, 12)   | Memory: 281.25 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(640, 288, 64)       | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 576, 64)       | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(640, 288, 1, 64)    | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 1920, 24, 24)   | Memory: 202.5 M | <class 'torch.Tensor'> | torch.float16
++ | 4 * Size:(32, 1280, 24, 24)   | Memory: 180.0 M | <class 'torch.Tensor'> | torch.float16
++ | 6 * Size:(32, 2560, 12, 12)   | Memory: 135.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(640, 144, 64)       | Memory: 112.5 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 960, 24, 24)    | Memory: 101.25 M | <class 'torch.Tensor'> | torch.float16
++ | 34 * Size:(32, 1280, 6, 6)     | Memory: 95.625 M | <class 'torch.Tensor'> | torch.float16
++ | 12 * Size:(640, 77, 64)        | Memory: 72.187 M | <class 'torch.Tensor'> | torch.float16
++ | 12 * Size:(640, 77, 1, 64)     | Memory: 72.187 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 1920, 12, 12)   | Memory: 50.625 M | <class 'torch.Tensor'> | torch.float16
++ | 9 * Size:(32, 2560, 6, 6)     | Memory: 50.625 M | <class 'torch.Tensor'> | torch.float16
++ | 4 * Size:(32, 36, 5120)       | Memory: 45.0 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 320, 24, 24)    | Memory: 33.75 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 77, 64)        | Memory: 30.078 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 77, 1, 64)     | Memory: 30.078 M | <class 'torch.Tensor'> | torch.float16
++ | 9 * Size:(32, 36, 1280)       | Memory: 25.312 M | <class 'torch.Tensor'> | torch.float16
++ | 6 * Size:(640, 36, 1, 64)     | Memory: 16.875 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 640, 12, 12)    | Memory: 16.875 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 77, 1, 64)     | Memory: 15.039 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 77, 64)        | Memory: 15.039 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 1, 2304)       | Memory: 14.062 M | <class 'torch.Tensor'> | torch.float32
++ | 2 * Size:(640, 72, 64)        | Memory: 11.25 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(640, 72, 1, 64)     | Memory: 11.25 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 1, 576)        | Memory: 7.0312 M | <class 'torch.Tensor'> | torch.float32
++ | 2 * Size:(640, 36, 64)        | Memory: 5.625 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(640, 1, 144)        | Memory: 3.5156 M | <class 'torch.Tensor'> | torch.float32
++ | 27 * Size:(32, 1280)           | Memory: 2.1093 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(640, 1, 36)         | Memory: 0.1757 M | <class 'torch.Tensor'> | torch.float32
++ | 2 * Size:(32, 1024)           | Memory: 0.125 M | <class 'torch.Tensor'> | torch.float16
++ | 1 * Size:(32, 320)            | Memory: 0.0195 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(32, 1)              | Memory: 0.0001 M | <class 'torch.Tensor'> | torch.float16
++ | 1 * Size:(32,)                | Memory: 6.1035 M | <class 'torch.Tensor'> | torch.float16
+- | 1 * Size:(32, 1)              | Memory: 6.1035 M | <class 'torch.Tensor'> | torch.float16
+
+At /home/czh5/multimodal/deepspeed-mvdiffusion/train_mvdiffusion_image_sd21_unclip_ds.py line 834: main Total Tensor Used Memory:37081.5Mb Total Allocated Memory:34362.4Mb
+
++ | 1 * Size:(32, 1)              | Memory: 6.1035 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:()                   | Memory: 5.7220 M | <class 'torch.Tensor'> | torch.float16
+- | 20 * Size:(32, 2304, 1280)     | Memory: 3600.0 M | <class 'torch.Tensor'> | torch.float16
+- | 45 * Size:(32, 2304, 320)      | Memory: 2025.0 M | <class 'torch.Tensor'> | torch.float16
+- | 20 * Size:(32, 576, 2560)      | Memory: 1800.0 M | <class 'torch.Tensor'> | torch.float16
+- | 30 * Size:(160, 2304, 1, 64)   | Memory: 1350.0 M | <class 'torch.Tensor'> | torch.float16
+- | 30 * Size:(32, 320, 48, 48)    | Memory: 1350.0 M | <class 'torch.Tensor'> | torch.float16
+- | 45 * Size:(32, 576, 640)       | Memory: 1012.5 M | <class 'torch.Tensor'> | torch.float16
+- | 20 * Size:(32, 144, 5120)      | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 4608, 64)      | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 4608, 1, 64)   | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
+- | 30 * Size:(320, 576, 1, 64)    | Memory: 675.0 M | <class 'torch.Tensor'> | torch.float16
+- | 7 * Size:(32, 640, 48, 48)    | Memory: 630.0 M | <class 'torch.Tensor'> | torch.float16
+- | 24 * Size:(32, 640, 24, 24)    | Memory: 540.0 M | <class 'torch.Tensor'> | torch.float16
+- | 45 * Size:(32, 144, 1280)      | Memory: 506.25 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(320, 1152, 1, 64)   | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(320, 1152, 64)      | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 2304, 64)      | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(32, 960, 48, 48)    | Memory: 405.0 M | <class 'torch.Tensor'> | torch.float16
+- | 30 * Size:(640, 144, 1, 64)    | Memory: 337.5 M | <class 'torch.Tensor'> | torch.float16
+- | 25 * Size:(32, 1280, 12, 12)   | Memory: 281.25 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(640, 288, 64)       | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(320, 576, 64)       | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(640, 288, 1, 64)    | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(32, 1920, 24, 24)   | Memory: 202.5 M | <class 'torch.Tensor'> | torch.float16
+- | 4 * Size:(32, 1280, 24, 24)   | Memory: 180.0 M | <class 'torch.Tensor'> | torch.float16
+- | 6 * Size:(32, 2560, 12, 12)   | Memory: 135.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(640, 144, 64)       | Memory: 112.5 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(32, 960, 24, 24)    | Memory: 101.25 M | <class 'torch.Tensor'> | torch.float16
+- | 34 * Size:(32, 1280, 6, 6)     | Memory: 95.625 M | <class 'torch.Tensor'> | torch.float16
+- | 12 * Size:(640, 77, 64)        | Memory: 72.187 M | <class 'torch.Tensor'> | torch.float16
+- | 12 * Size:(640, 77, 1, 64)     | Memory: 72.187 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(32, 1920, 12, 12)   | Memory: 50.625 M | <class 'torch.Tensor'> | torch.float16
+- | 9 * Size:(32, 2560, 6, 6)     | Memory: 50.625 M | <class 'torch.Tensor'> | torch.float16
+- | 4 * Size:(32, 36, 5120)       | Memory: 45.0 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(32, 320, 24, 24)    | Memory: 33.75 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(320, 77, 64)        | Memory: 30.078 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(320, 77, 1, 64)     | Memory: 30.078 M | <class 'torch.Tensor'> | torch.float16
+- | 9 * Size:(32, 36, 1280)       | Memory: 25.312 M | <class 'torch.Tensor'> | torch.float16
+- | 6 * Size:(640, 36, 1, 64)     | Memory: 16.875 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(32, 640, 12, 12)    | Memory: 16.875 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 77, 1, 64)     | Memory: 15.039 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 77, 64)        | Memory: 15.039 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 1, 2304)       | Memory: 14.062 M | <class 'torch.Tensor'> | torch.float32
+- | 2 * Size:(640, 72, 64)        | Memory: 11.25 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(640, 72, 1, 64)     | Memory: 11.25 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(320, 1, 576)        | Memory: 7.0312 M | <class 'torch.Tensor'> | torch.float32
+- | 2 * Size:(640, 36, 64)        | Memory: 5.625 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(640, 1, 144)        | Memory: 3.5156 M | <class 'torch.Tensor'> | torch.float32
+- | 27 * Size:(32, 1280)           | Memory: 2.1093 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(640, 1, 36)         | Memory: 0.1757 M | <class 'torch.Tensor'> | torch.float32
+- | 2 * Size:(32, 1024)           | Memory: 0.125 M | <class 'torch.Tensor'> | torch.float16
+- | 1 * Size:(32, 320)            | Memory: 0.0195 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(32, 1)              | Memory: 0.0001 M | <class 'torch.Tensor'> | torch.float16
+- | 1 * Size:(32,)                | Memory: 6.1035 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:()                   | Memory: 3.8146 M | <class 'torch.Tensor'> | torch.float16
+
+At /home/czh5/multimodal/deepspeed-mvdiffusion/train_mvdiffusion_image_sd21_unclip_ds.py line 882: main Total Tensor Used Memory:16488.3Mb Total Allocated Memory:16611.6Mb
+
++ | 20 * Size:(32, 2304, 1280)     | Memory: 3600.0 M | <class 'torch.Tensor'> | torch.float16
++ | 45 * Size:(32, 2304, 320)      | Memory: 2025.0 M | <class 'torch.Tensor'> | torch.float16
++ | 20 * Size:(32, 576, 2560)      | Memory: 1800.0 M | <class 'torch.Tensor'> | torch.float16
++ | 30 * Size:(160, 2304, 1, 64)   | Memory: 1350.0 M | <class 'torch.Tensor'> | torch.float16
++ | 30 * Size:(32, 320, 48, 48)    | Memory: 1350.0 M | <class 'torch.Tensor'> | torch.float16
++ | 45 * Size:(32, 576, 640)       | Memory: 1012.5 M | <class 'torch.Tensor'> | torch.float16
++ | 20 * Size:(32, 144, 5120)      | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 4608, 64)      | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 4608, 1, 64)   | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
++ | 30 * Size:(320, 576, 1, 64)    | Memory: 675.0 M | <class 'torch.Tensor'> | torch.float16
++ | 7 * Size:(32, 640, 48, 48)    | Memory: 630.0 M | <class 'torch.Tensor'> | torch.float16
++ | 24 * Size:(32, 640, 24, 24)    | Memory: 540.0 M | <class 'torch.Tensor'> | torch.float16
++ | 45 * Size:(32, 144, 1280)      | Memory: 506.25 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 1152, 1, 64)   | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 1152, 64)      | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 2304, 64)      | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 960, 48, 48)    | Memory: 405.0 M | <class 'torch.Tensor'> | torch.float16
++ | 30 * Size:(640, 144, 1, 64)    | Memory: 337.5 M | <class 'torch.Tensor'> | torch.float16
++ | 25 * Size:(32, 1280, 12, 12)   | Memory: 281.25 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(640, 288, 64)       | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 576, 64)       | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(640, 288, 1, 64)    | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 1920, 24, 24)   | Memory: 202.5 M | <class 'torch.Tensor'> | torch.float16
++ | 4 * Size:(32, 1280, 24, 24)   | Memory: 180.0 M | <class 'torch.Tensor'> | torch.float16
++ | 6 * Size:(32, 2560, 12, 12)   | Memory: 135.0 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(640, 144, 64)       | Memory: 112.5 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 960, 24, 24)    | Memory: 101.25 M | <class 'torch.Tensor'> | torch.float16
++ | 34 * Size:(32, 1280, 6, 6)     | Memory: 95.625 M | <class 'torch.Tensor'> | torch.float16
++ | 12 * Size:(640, 77, 64)        | Memory: 72.187 M | <class 'torch.Tensor'> | torch.float16
++ | 12 * Size:(640, 77, 1, 64)     | Memory: 72.187 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 1920, 12, 12)   | Memory: 50.625 M | <class 'torch.Tensor'> | torch.float16
++ | 9 * Size:(32, 2560, 6, 6)     | Memory: 50.625 M | <class 'torch.Tensor'> | torch.float16
++ | 4 * Size:(32, 36, 5120)       | Memory: 45.0 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 320, 24, 24)    | Memory: 33.75 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 77, 64)        | Memory: 30.078 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 77, 1, 64)     | Memory: 30.078 M | <class 'torch.Tensor'> | torch.float16
++ | 9 * Size:(32, 36, 1280)       | Memory: 25.312 M | <class 'torch.Tensor'> | torch.float16
++ | 6 * Size:(640, 36, 1, 64)     | Memory: 16.875 M | <class 'torch.Tensor'> | torch.float16
++ | 3 * Size:(32, 640, 12, 12)    | Memory: 16.875 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 77, 1, 64)     | Memory: 15.039 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 77, 64)        | Memory: 15.039 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(160, 1, 2304)       | Memory: 14.062 M | <class 'torch.Tensor'> | torch.float32
++ | 2 * Size:(640, 72, 64)        | Memory: 11.25 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(640, 72, 1, 64)     | Memory: 11.25 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(320, 1, 576)        | Memory: 7.0312 M | <class 'torch.Tensor'> | torch.float32
++ | 2 * Size:(640, 36, 64)        | Memory: 5.625 M | <class 'torch.Tensor'> | torch.float16
++ | 7 * Size:(32, 4, 48, 48)      | Memory: 3.9375 M | <class 'torch.Tensor'> | torch.float16
++ | 10 * Size:(640, 1, 144)        | Memory: 3.5156 M | <class 'torch.Tensor'> | torch.float32
++ | 27 * Size:(32, 1280)           | Memory: 2.1093 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(640, 1, 36)         | Memory: 0.1757 M | <class 'torch.Tensor'> | torch.float32
++ | 2 * Size:(32, 1024)           | Memory: 0.125 M | <class 'torch.Tensor'> | torch.float16
++ | 1 * Size:(32, 320)            | Memory: 0.0195 M | <class 'torch.Tensor'> | torch.float16
++ | 2 * Size:(32, 1)              | Memory: 0.0001 M | <class 'torch.Tensor'> | torch.float16
++ | 1 * Size:(32,)                | Memory: 6.1035 M | <class 'torch.Tensor'> | torch.float16
+- | 6 * Size:(32, 4, 48, 48)      | Memory: 3.375 M | <class 'torch.Tensor'> | torch.float16
+- | 1 * Size:(32, 1)              | Memory: 6.1035 M | <class 'torch.Tensor'> | torch.float16
+
+At /home/czh5/multimodal/deepspeed-mvdiffusion/train_mvdiffusion_image_sd21_unclip_ds.py line 834: main Total Tensor Used Memory:37082.1Mb Total Allocated Memory:34363.1Mb
+
++ | 1 * Size:(32, 1)              | Memory: 6.1035 M | <class 'torch.Tensor'> | torch.float16
++ | 4 * Size:()                   | Memory: 7.6293 M | <class 'torch.Tensor'> | torch.float16
+- | 20 * Size:(32, 2304, 1280)     | Memory: 3600.0 M | <class 'torch.Tensor'> | torch.float16
+- | 45 * Size:(32, 2304, 320)      | Memory: 2025.0 M | <class 'torch.Tensor'> | torch.float16
+- | 20 * Size:(32, 576, 2560)      | Memory: 1800.0 M | <class 'torch.Tensor'> | torch.float16
+- | 30 * Size:(160, 2304, 1, 64)   | Memory: 1350.0 M | <class 'torch.Tensor'> | torch.float16
+- | 30 * Size:(32, 320, 48, 48)    | Memory: 1350.0 M | <class 'torch.Tensor'> | torch.float16
+- | 45 * Size:(32, 576, 640)       | Memory: 1012.5 M | <class 'torch.Tensor'> | torch.float16
+- | 20 * Size:(32, 144, 5120)      | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 4608, 64)      | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 4608, 1, 64)   | Memory: 900.0 M | <class 'torch.Tensor'> | torch.float16
+- | 30 * Size:(320, 576, 1, 64)    | Memory: 675.0 M | <class 'torch.Tensor'> | torch.float16
+- | 7 * Size:(32, 640, 48, 48)    | Memory: 630.0 M | <class 'torch.Tensor'> | torch.float16
+- | 24 * Size:(32, 640, 24, 24)    | Memory: 540.0 M | <class 'torch.Tensor'> | torch.float16
+- | 45 * Size:(32, 144, 1280)      | Memory: 506.25 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(320, 1152, 1, 64)   | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(320, 1152, 64)      | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 2304, 64)      | Memory: 450.0 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(32, 960, 48, 48)    | Memory: 405.0 M | <class 'torch.Tensor'> | torch.float16
+- | 30 * Size:(640, 144, 1, 64)    | Memory: 337.5 M | <class 'torch.Tensor'> | torch.float16
+- | 25 * Size:(32, 1280, 12, 12)   | Memory: 281.25 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(640, 288, 64)       | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(320, 576, 64)       | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(640, 288, 1, 64)    | Memory: 225.0 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(32, 1920, 24, 24)   | Memory: 202.5 M | <class 'torch.Tensor'> | torch.float16
+- | 4 * Size:(32, 1280, 24, 24)   | Memory: 180.0 M | <class 'torch.Tensor'> | torch.float16
+- | 6 * Size:(32, 2560, 12, 12)   | Memory: 135.0 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(640, 144, 64)       | Memory: 112.5 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(32, 960, 24, 24)    | Memory: 101.25 M | <class 'torch.Tensor'> | torch.float16
+- | 34 * Size:(32, 1280, 6, 6)     | Memory: 95.625 M | <class 'torch.Tensor'> | torch.float16
+- | 12 * Size:(640, 77, 64)        | Memory: 72.187 M | <class 'torch.Tensor'> | torch.float16
+- | 12 * Size:(640, 77, 1, 64)     | Memory: 72.187 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(32, 1920, 12, 12)   | Memory: 50.625 M | <class 'torch.Tensor'> | torch.float16
+- | 9 * Size:(32, 2560, 6, 6)     | Memory: 50.625 M | <class 'torch.Tensor'> | torch.float16
+- | 4 * Size:(32, 36, 5120)       | Memory: 45.0 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(32, 320, 24, 24)    | Memory: 33.75 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(320, 77, 64)        | Memory: 30.078 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(320, 77, 1, 64)     | Memory: 30.078 M | <class 'torch.Tensor'> | torch.float16
+- | 9 * Size:(32, 36, 1280)       | Memory: 25.312 M | <class 'torch.Tensor'> | torch.float16
+- | 6 * Size:(640, 36, 1, 64)     | Memory: 16.875 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:(32, 640, 12, 12)    | Memory: 16.875 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 77, 1, 64)     | Memory: 15.039 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 77, 64)        | Memory: 15.039 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(160, 1, 2304)       | Memory: 14.062 M | <class 'torch.Tensor'> | torch.float32
+- | 2 * Size:(640, 72, 64)        | Memory: 11.25 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(640, 72, 1, 64)     | Memory: 11.25 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(320, 1, 576)        | Memory: 7.0312 M | <class 'torch.Tensor'> | torch.float32
+- | 2 * Size:(640, 36, 64)        | Memory: 5.625 M | <class 'torch.Tensor'> | torch.float16
+- | 10 * Size:(640, 1, 144)        | Memory: 3.5156 M | <class 'torch.Tensor'> | torch.float32
+- | 27 * Size:(32, 1280)           | Memory: 2.1093 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(640, 1, 36)         | Memory: 0.1757 M | <class 'torch.Tensor'> | torch.float32
+- | 2 * Size:(32, 1024)           | Memory: 0.125 M | <class 'torch.Tensor'> | torch.float16
+- | 1 * Size:(32, 320)            | Memory: 0.0195 M | <class 'torch.Tensor'> | torch.float16
+- | 2 * Size:(32, 1)              | Memory: 0.0001 M | <class 'torch.Tensor'> | torch.float16
+- | 1 * Size:(32,)                | Memory: 6.1035 M | <class 'torch.Tensor'> | torch.float16
+- | 3 * Size:()                   | Memory: 5.7220 M | <class 'torch.Tensor'> | torch.float16
+
+At /home/czh5/multimodal/deepspeed-mvdiffusion/train_mvdiffusion_image_sd21_unclip_ds.py line 882: main Total Tensor Used Memory:16488.9Mb Total Allocated Memory:16612.1Mb
+
